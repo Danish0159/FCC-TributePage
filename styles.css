@@ -1,0 +1,82 @@
+/* css reset  */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #333333;
+}
+
+#main {
+  background-color: #e4e9e6;
+  margin: 35px 10px;
+  padding: 18px 15px;
+  border-radius: 13px;
+}
+
+header h1 {
+  margin-bottom: 0;
+}
+
+@media (max-width: 467px) {
+  header h1 {
+    font-size: 1.9rem;
+  }
+}
+
+/* image div styling  */
+#img-div {
+  background-color: white;
+  margin: 14px 5px;
+}
+
+/* These properties will make the image responsive  */
+#img-div img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div p {
+  padding-bottom: 20px;
+}
+
+@media (max-width: 1082px) {
+  #img-div p {
+    padding: 0 6px 12px 6px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Tribute section  */
+#tribute-info {
+  max-width: 550px;
+  display: block;
+  margin: auto;
+  text-align: justify;
+}
+
+#tribute-info ul {
+  margin: 35px 0;
+}
+
+#tribute-info ul li {
+  margin: 14px 0;
+}
+
+#tribute-info h3 {
+  padding: 14px 3px;
+  text-align: center;
+}
+
+/* bockquote section   */
+blockquote p {
+  font-style: italic;
+}
